@@ -3,8 +3,7 @@ import data from "./data"
 
 
 function App() {
-  console.log('test')
-  console.log(data.products)
+  
   return (
             <div className="grid-container">
             <header className="row">
