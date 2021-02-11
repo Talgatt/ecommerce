@@ -2934,6 +2934,13 @@
   "resolved" "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.1.tgz"
   "version" "4.1.1"
 
+"axios@^0.21.1":
+  "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz"
+  "version" "0.21.1"
+  dependencies:
+    "follow-redirects" "^1.10.0"
+
 "axobject-query@^2.2.0":
   "integrity" "sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA=="
   "resolved" "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz"
@@ -3189,10 +3196,10 @@
   "resolved" "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz"
   "version" "3.7.2"
 
-"bn.js@^4.0.0", "bn.js@^4.1.0", "bn.js@^4.1.1", "bn.js@^4.4.0":
-  "integrity" "sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA=="
-  "resolved" "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz"
-  "version" "4.11.8"
+"bn.js@^4.0.0", "bn.js@^4.1.0", "bn.js@^4.1.1", "bn.js@^4.11.9":
+  "integrity" "sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw=="
+  "resolved" "https://registry.npmjs.org/bn.js/-/bn.js-4.11.9.tgz"
+  "version" "4.11.9"
 
 "body-parser@1.19.0":
   "integrity" "sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw=="
@@ -3265,7 +3272,7 @@
   dependencies:
     "fill-range" "^7.0.1"
 
-"brorand@^1.0.1":
+"brorand@^1.0.1", "brorand@^1.1.0":
   "integrity" "sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8="
   "resolved" "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz"
   "version" "1.1.0"
@@ -4810,17 +4817,17 @@
   "version" "1.3.657"
 
 "elliptic@^6.0.0":
-  "integrity" "sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw=="
-  "resolved" "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz"
-  "version" "6.5.2"
+  "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
+  "resolved" "https://registry.npmjs.org/elliptic/-/elliptic-6.5.4.tgz"
+  "version" "6.5.4"
   dependencies:
-    "bn.js" "^4.4.0"
-    "brorand" "^1.0.1"
+    "bn.js" "^4.11.9"
+    "brorand" "^1.1.0"
     "hash.js" "^1.0.0"
-    "hmac-drbg" "^1.0.0"
-    "inherits" "^2.0.1"
-    "minimalistic-assert" "^1.0.0"
-    "minimalistic-crypto-utils" "^1.0.0"
+    "hmac-drbg" "^1.0.1"
+    "inherits" "^2.0.4"
+    "minimalistic-assert" "^1.0.1"
+    "minimalistic-crypto-utils" "^1.0.1"
 
 "emittery@^0.7.1":
   "integrity" "sha512-A8OG5SR/ij3SsJdWDJdkkSYUjQdCUx6APQXem0SaEePBSRg4eymGYwBkKo1Y6DU+af/Jn2dBQqDBvjnr9Vi8nQ=="
@@ -5660,7 +5667,7 @@
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
 
-"follow-redirects@^1.0.0":
+"follow-redirects@^1.0.0", "follow-redirects@^1.10.0":
   "integrity" "sha512-4eyLK6s6lH32nOvLLwlIOnr9zrL8Sm+OvW4pVTJNoXeGzYIkHVf+pADQi+OJ0E67hiuSLezPVPyBcIZO50TmmQ=="
   "resolved" "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.10.0.tgz"
   "version" "1.10.0"
@@ -6127,7 +6134,7 @@
     "tiny-warning" "^1.0.0"
     "value-equal" "^1.0.1"
 
-"hmac-drbg@^1.0.0":
+"hmac-drbg@^1.0.1":
   "integrity" "sha1-0nRXAQJabHdabFRXk+1QL8DGSaE="
   "resolved" "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz"
   "version" "1.0.1"
@@ -6136,7 +6143,7 @@
     "minimalistic-assert" "^1.0.0"
     "minimalistic-crypto-utils" "^1.0.1"
 
-"hoist-non-react-statics@^3.1.0":
+"hoist-non-react-statics@^3.1.0", "hoist-non-react-statics@^3.3.2":
   "integrity" "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw=="
   "resolved" "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"
   "version" "3.3.2"
@@ -6293,9 +6300,9 @@
     "micromatch" "^3.1.10"
 
 "http-proxy@^1.17.0":
-  "integrity" "sha512-84I2iJM/n1d4Hdgc6y2+qY5mDaz2PUVjlg9znE9byl+q0uC3DeByqBGReQu5tpLK0TAqTIXScRUV+dg7+bUPpQ=="
-  "resolved" "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz"
-  "version" "1.18.0"
+  "integrity" "sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ=="
+  "resolved" "https://registry.npmjs.org/http-proxy/-/http-proxy-1.18.1.tgz"
+  "version" "1.18.1"
   dependencies:
     "eventemitter3" "^4.0.0"
     "follow-redirects" "^1.0.0"
@@ -6478,9 +6485,9 @@
   "version" "2.0.3"
 
 "ini@^1.3.5":
-  "integrity" "sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw=="
-  "resolved" "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz"
-  "version" "1.3.5"
+  "integrity" "sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew=="
+  "resolved" "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
+  "version" "1.3.8"
 
 "ini@~1.3.0":
   "integrity" "sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw=="
@@ -7742,19 +7749,9 @@
   "resolved" "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   "version" "4.5.0"
 
-"lodash@^4.17.11", "lodash@^4.17.13", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.5", "lodash@>=3.5 <5":
-  "integrity" "sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A=="
-  "resolved" "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz"
-  "version" "4.17.15"
-
-"lodash@^4.17.19":
+"lodash@^4.17.11", "lodash@^4.17.13", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.5", "lodash@>=3.5 <5":
   "integrity" "sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA=="
-  "resolved" "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz"
-  "version" "4.17.20"
-
-"lodash@^4.17.20":
-  "integrity" "sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA=="
-  "resolved" "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz"
+  "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz"
   "version" "4.17.20"
 
 "loglevel@^1.6.8":
@@ -8024,7 +8021,7 @@
   "resolved" "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
   "version" "1.0.1"
 
-"minimalistic-crypto-utils@^1.0.0", "minimalistic-crypto-utils@^1.0.1":
+"minimalistic-crypto-utils@^1.0.1":
   "integrity" "sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo="
   "resolved" "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz"
   "version" "1.0.1"
@@ -8261,10 +8258,10 @@
     "lower-case" "^2.0.1"
     "tslib" "^1.10.0"
 
-"node-forge@0.9.0":
-  "integrity" "sha512-7ASaDa3pD+lJ3WvXFsxekJQelBKRpne+GOVbLbtHYdd7pFspyeuJHnWfLplGf3SwKGbfs/aYl5V/JCIaHVUKKQ=="
-  "resolved" "https://registry.yarnpkg.com/node-forge/-/node-forge-0.9.0.tgz"
-  "version" "0.9.0"
+"node-forge@^0.10.0":
+  "integrity" "sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA=="
+  "resolved" "https://registry.npmjs.org/node-forge/-/node-forge-0.10.0.tgz"
+  "version" "0.10.0"
 
 "node-int64@^0.4.0":
   "integrity" "sha1-h6kGXNs1XTGC2PlM4RGIuCXGijs="
@@ -10029,7 +10026,7 @@
   "resolved" "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
 
-"react-is@^16.6.0", "react-is@^16.7.0", "react-is@^16.8.1":
+"react-is@^16.13.1", "react-is@^16.6.0", "react-is@^16.7.0", "react-is@^16.8.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
@@ -10038,6 +10035,17 @@
   "integrity" "sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA=="
   "resolved" "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz"
   "version" "17.0.1"
+
+"react-redux@^7.2.2":
+  "integrity" "sha512-8+CQ1EvIVFkYL/vu6Olo7JFLWop1qRUeb46sGtIMDCSpgwPQq8fPLpirIB0iTqFe9XYEFPHssdX8/UwN6pAkEA=="
+  "resolved" "https://registry.npmjs.org/react-redux/-/react-redux-7.2.2.tgz"
+  "version" "7.2.2"
+  dependencies:
+    "@babel/runtime" "^7.12.1"
+    "hoist-non-react-statics" "^3.3.2"
+    "loose-envify" "^1.4.0"
+    "prop-types" "^15.7.2"
+    "react-is" "^16.13.1"
 
 "react-refresh@^0.8.3", "react-refresh@>=0.8.3 <0.10.0":
   "integrity" "sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg=="
@@ -10140,7 +10148,7 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^17.0.1", "react@>= 16", "react@>=15", "react@17.0.1":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17.0.1", "react@>= 16", "react@>=15", "react@17.0.1":
   "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
   "resolved" "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz"
   "version" "17.0.1"
@@ -10258,6 +10266,19 @@
   dependencies:
     "indent-string" "^4.0.0"
     "strip-indent" "^3.0.0"
+
+"redux-thunk@^2.3.0":
+  "integrity" "sha512-km6dclyFnmcvxhAcrQV2AkZmPQjzPDjgVlQtR0EQjxZPyJ0BnMf3in1ryuR8A2qU0HldVRfxYXbFSKlI3N7Slw=="
+  "resolved" "https://registry.npmjs.org/redux-thunk/-/redux-thunk-2.3.0.tgz"
+  "version" "2.3.0"
+
+"redux@^2.0.0 || ^3.0.0 || ^4.0.0-0", "redux@^4.0.5":
+  "integrity" "sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w=="
+  "resolved" "https://registry.npmjs.org/redux/-/redux-4.0.5.tgz"
+  "version" "4.0.5"
+  dependencies:
+    "loose-envify" "^1.4.0"
+    "symbol-observable" "^1.2.0"
 
 "regenerate-unicode-properties@^8.2.0":
   "integrity" "sha512-F9DjY1vKLo/tPePDycuH3dn9H1OTPIkVD9Kz4LODu+F2C75mgjAJ7x/gwy6ZcSNRAAkhNlJSOHRe8k3p+K9WhA=="
@@ -10807,11 +10828,11 @@
   "version" "2.0.0"
 
 "selfsigned@^1.10.7":
-  "integrity" "sha512-8M3wBCzeWIJnQfl43IKwOmC4H/RAp50S8DF60znzjW5GVqTcSe2vWclt7hmYVPkKPlHWOu5EaWOMZ2Y6W8ZXTA=="
-  "resolved" "https://registry.yarnpkg.com/selfsigned/-/selfsigned-1.10.7.tgz"
-  "version" "1.10.7"
+  "integrity" "sha512-2P4PtieJeEwVgTU9QEcwIRDQ/mXJLX8/+I3ur+Pg16nS8oNbrGxEso9NyYWy8NAmXiNl4dlAp5MwoNeCWzON4w=="
+  "resolved" "https://registry.npmjs.org/selfsigned/-/selfsigned-1.10.8.tgz"
+  "version" "1.10.8"
   dependencies:
-    "node-forge" "0.9.0"
+    "node-forge" "^0.10.0"
 
 "semver@^5.3.0":
   "integrity" "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
@@ -10876,14 +10897,9 @@
     "range-parser" "~1.2.1"
     "statuses" "~1.5.0"
 
-"serialize-javascript@^2.1.2":
-  "integrity" "sha512-rs9OggEUF0V4jUSecXazOYsLfu7OGK2qIn3c7IPBiffz32XniEp/TX9Xmc9LQfK2nQ2QKHvZ2oygKUGU0lG4jQ=="
-  "resolved" "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.2.tgz"
-  "version" "2.1.2"
-
 "serialize-javascript@^4.0.0":
   "integrity" "sha512-GaNA54380uFefWghODBWEGisLZFj00nS5ACs6yHa9nLqlLpVLO8ChDGeKRjZnV4Nh4n0Qi7nhYZD/9fCPzEqkw=="
-  "resolved" "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-4.0.0.tgz"
+  "resolved" "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-4.0.0.tgz"
   "version" "4.0.0"
   dependencies:
     "randombytes" "^2.1.0"
@@ -11593,6 +11609,11 @@
     "unquote" "~1.1.1"
     "util.promisify" "~1.0.0"
 
+"symbol-observable@^1.2.0":
+  "integrity" "sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ=="
+  "resolved" "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.2.0.tgz"
+  "version" "1.2.0"
+
 "symbol-tree@^3.2.4":
   "integrity" "sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw=="
   "resolved" "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz"
@@ -11661,15 +11682,15 @@
     "supports-hyperlinks" "^2.0.0"
 
 "terser-webpack-plugin@^1.4.3":
-  "integrity" "sha512-QMxecFz/gHQwteWwSo5nTc6UaICqN1bMedC5sMtUc7y3Ha3Q8y6ZO0iCR8pq4RJC8Hjf0FEPEHZqcMB/+DFCrA=="
-  "resolved" "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-1.4.3.tgz"
-  "version" "1.4.3"
+  "integrity" "sha512-04Rfe496lN8EYruwi6oPQkG0vo8C+HT49X687FZnpPF0qMAIHONI6HEXYPKDOE8e5HjXTyKfqRd/agHtH0kOtw=="
+  "resolved" "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-1.4.5.tgz"
+  "version" "1.4.5"
   dependencies:
     "cacache" "^12.0.2"
     "find-cache-dir" "^2.1.0"
     "is-wsl" "^1.1.0"
     "schema-utils" "^1.0.0"
-    "serialize-javascript" "^2.1.2"
+    "serialize-javascript" "^4.0.0"
     "source-map" "^0.6.1"
     "terser" "^4.1.2"
     "webpack-sources" "^1.4.0"

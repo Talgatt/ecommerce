@@ -122,6 +122,10 @@ img.medium {
   max-width: 29rem;
   width: 100%;
 }
+img.small {
+  max-width: 10rem;
+  width: 100;
+}
 img.large {
   width: 100%;
 }
@@ -154,6 +158,19 @@ img.large {
 .success {
   color: #008000;
 }
-.error {
+.danger {
   color: #ff0000;
+}
+.alert {
+  padding: 1rem;
+  border: 0.1rem solid, transparent;
+  border-radius: 0.5rem;
+}
+.alert-info {
+  color: #2020a0;
+  background-color: white;
+}
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0e0;
 }

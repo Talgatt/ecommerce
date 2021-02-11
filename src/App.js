@@ -1,9 +1,10 @@
 import React from "react";
 import Product from "./components/Product";
-import data from "./data";
+
 import { BrowserRouter, Route, Router, Switch } from "react-router-dom";
 import ProductScreen from "./screens/ProductScreen";
 import HomeScreen from "./screens/HomeScreen";
+import CartScreen from "./screens/CartScreen";
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
           </div>
         </header>
         <main>
-          <Route path="/product/:id" component={ProductScreen}></Route>
-          <Route path="/" component={HomeScreen} exact></Route>
+          <Route path="/" component={HomeScreen} exact />
+          <Route path="/product/:id" component={ProductScreen} exact />
+          <Route path="/cart/:id?" component={CartScreen} />
         </main>
         <footer className="row center">All rights reserved</footer>
       </div>
